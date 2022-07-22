@@ -1,0 +1,53 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.centrar{
+    display: flex;
+    justify-content: center;
+    background-color: bisque;
+    align-items: center;
+}
+.button{
+    display: flex;
+    justify-content: center;
+    width: 9rem;
+    height: 3rem;
+    background-color: rgb(208, 255, 205);
+    color: rgb(23, 29, 40);
+    border-color: cornflowerblue;
+    border-radius: 1rem;
+}
+.row{
+    gap: 1rem;
+}
+h1{
+    font-family: 'Alegreya', serif;
+    font-family: 'Patrick Hand', cursive;
+}
+a:hover{
+    background-color: rgb(81, 154, 157);
+    color: rgb(248, 243, 236);
+    height: 3.5rem;
+    width: 8.5rem;
+}
+.fondo{
+    background-image: url(/images/2255.jpeg);
+    background-repeat: no-repeat;
+    height: 100rem;
+    background-size: 100%;
+}
+.centrar2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 75vh;
+    font-size: xx-large;
+    color: black;
+    text-shadow: lightblue 1px;
+}
+.centrar3{
+    display: flex;
+    justify-content: center;
+}
